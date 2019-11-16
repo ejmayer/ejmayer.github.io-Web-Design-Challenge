@@ -1,4 +1,55 @@
-h1 {
+li{
+  list-style-type: none;
+  margin: 20px;
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  padding: 45px;
+}
+
+nav{
+  height: 60px;
+  background-color: #D6EFFF;
+}
+
+ul{
+  display: block;
+  margin: 0;
+  padding: 0;
+  
+  display: flex;  
+}
+
+body{
+  margin: 0;
+}
+
+button{
+  display: none;
+}
+
+a:hover{
+  background-color: #C6E9FF;
+}
+
+@media only screen and (max-width: 500px) {
+  ul{
+    flex-direction: column;
+  }
+  
+  a{
+    display: block;
+  }
+  
+  li{
+    margin: 0;
+  }
+
+  h1 {
     text-align: center;
 }
 
@@ -23,59 +74,47 @@ body {
     padding: 20px;
     font-size: 1.5em;
 }
+  
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
 
-li{
-    list-style-type: none;
-    margin: 2vw 0;
-    
-    font-size: 3vh;
-  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgrey;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;} 
   
-  a{
-    text-decoration: none;
-    color: black;
-    font-family: monospace;
   
-    padding: 2vw;
-  }
   
-  nav{
-    width: 100vw;
-    background-color: #D6EFFF;
-  }
   
-  ul{
-    display: block;
-    margin: 0;
-    padding: 0;
-    
-    display: flex;  
-  }
   
-  body{
-    margin: 0;
-  }
   
-  button{
-    display: none;
-  }
   
-  a:hover{
-    background-color: #C6E9FF;
-  }
   
-  @media only screen and (max-width: 500px) {
-    ul{
-      flex-direction: column;
-    }
-    
-    a{
-      display: block;
-    }
-    
-    li{
-      margin: 0;
-    }
-    
-    
-  }
+  
+  
+  
+  
