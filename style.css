@@ -12,8 +12,8 @@ a{
 }
 
 nav{
-  height: 60px;
-  background-color: #D6EFFF;
+  height: 50px;
+  color: pink;
 }
 
 ul{
@@ -28,93 +28,23 @@ body{
   margin: 0;
 }
 
-button{
-  display: none;
-}
-
 a:hover{
-  background-color: #C6E9FF;
+  background-color: skyblue;
 }
 
-@media only screen and (max-width: 500px) {
-  ul{
-    flex-direction: column;
-  }
-  
-  a{
-    display: block;
-  }
-  
-  li{
-    margin: 0;
-  }
-
-  h1 {
-    text-align: center;
-}
 
 body {
     background-color: skyblue;
-    
-}
-
-.summary {
-    background-color: rgb(130, 148, 187);
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    font-size: 1.5em;
-
-}
-
-.charts {
-    background-color: rgb(130, 148, 187);
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    font-size: 1.5em;
 }
   
-.dropbtn {
-  background-color: black;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+main_page {
+  padding: 20px;
+  margin-top: 10px;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+row: {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
 }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: lightgrey;
-  min-width: 200px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: white;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: grey;} 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
